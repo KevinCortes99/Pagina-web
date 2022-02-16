@@ -1,0 +1,20 @@
+{
+    "name": "prueba/kevin",
+    "description": "Prueba de implementación COMPOSER",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Prueba\\Kevin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kevin Cortes",
+            "email": "kazc.99@gmail.com"
+        }
+    ],
+    "require": {
+        "kint-php/kint":"4.*"
+    }
+}
